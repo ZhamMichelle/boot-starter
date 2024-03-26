@@ -1,0 +1,4 @@
+/*Если вы используете Spring Boot 2.7 и ниже, то необходимо создать папку META-INF и в ней файл spring.factories.*/
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.iron.IronConfiguration
+org.springframework.context.ApplicationContextInitializer=com.iron.ProfileCheckApplicationContextInitializer
+org.springframework.boot.env.EnvironmentPostProcessor=com.iron.ProfileDetectorEPP

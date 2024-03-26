@@ -1,0 +1,3 @@
+rootProject.name = 'boot-starter'
+include 'iron-starter'
+
